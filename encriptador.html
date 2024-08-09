@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="encriptador.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Encriptador ONE</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="imag/Logo.png" alt="Logo Alura" />
+    </header>
+    <main>
+      <section>
+        <textarea
+          class="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese el texto aqui 📜"
+        ></textarea>
+        <div>
+          <h6 class="informacion">Solo letras minisculas y sin acentos</h6>
+        </div>
+        <div class="botones">
+          <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="mensaje" cols="20" rows="10"></textarea>
+        <div>
+          <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-copyright">&copy; Jose Angel</div>
+        <div class="footer-links">
+          <a
+            href="https://www.linkedin.com/in/jose-angel-ai"
+            class="footer-link"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/JoseAngel1988" class="footer-link"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="encriptador.js"></script>
+  </body>
+</html>
